@@ -9,7 +9,7 @@
 
 ## Ща будет код
 
-'''
+```
 public class Solution {
     public bool IsValid(string s) {
         Dictionary<char, char> bracketPairs = new Dictionary<char, char> {
@@ -32,4 +32,4 @@ public class Solution {
         return stack.Count == 0;
     }
 }
-'''
+```
